@@ -1,0 +1,608 @@
+.wimplecf_error_message
+{
+    color: #f00;
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+    padding-left: 7px;
+}
+
+.wimplecf_mandatory_field
+{
+	color: #f00;
+    margin-left: 3px;
+    position: absolute;    
+}
+
+.wimplecf_top_headings
+{
+    background-color: #e4e4e4;
+}
+
+.wimplecf_top_headings th
+{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.wimplecf_text_class
+{
+    float: left;
+    width: 170px;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 16px;
+    text-align: right;
+}
+
+.wimplecf_option_class
+{
+    float: left;
+    width: 170px;
+    font-size: 14px;
+    margin-right: 16px;
+	margin-top:5px;
+    text-align: right;
+}
+ 
+.wimplecf_field_class
+{
+    float: left;
+    width: 76%;
+}
+
+.wimplecf_field_class1 
+{
+    float: left;
+    width: 76%;
+    margin-top: 7px;
+}
+
+tr.wimplecf_right_side_class th
+{
+    font-size: 12px;
+}
+
+.wimplecf_cat_select_class option:nth-child(even)
+{
+    background: #ccc;
+}
+
+.wimplecf_cat_select_class option:nth-child(odd)
+{
+  background: #fff;
+}
+
+.wimplecf_back_btn
+{
+    width: 100%;
+    float: left; 
+}
+
+.wimplecf_back_btn button
+{
+    float: right;
+}
+
+.wimplecf_next_title
+{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.wimplecf_wrap h2
+{ 
+    font-size:24px;
+    padding: 9px 0px 25px 0px;
+}
+
+.wimplecf_help
+{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: #797774;
+    float: left;
+    padding-left: 8px;
+}  
+
+.wimplecf_ste-button-primary
+{
+    font-size: 13px !important;
+    font-weight: bold;
+}
+
+.wimplecf_save_button_primary
+{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.wimplecf_input{
+    width: 517px;
+    float: left;
+    font-size:14px;
+    height: 35px;
+}
+
+.wimplecf_wp-admin select
+{
+    height:35px;
+}
+
+.wimplecf_section_title
+{
+    background: #ccc none repeat scroll 0 0;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-indent: 10px;
+    padding: 5px 0;
+    width: 90%;
+}
+
+.wimplecf_header
+{
+    font-size: 20px;
+    margin-left: 17px;
+    margin-top: 17px;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.wimplecf_submit
+{
+    margin: 20px 0;
+    float: left;
+    margin: 0 0 0 17px;
+}
+
+.wimplecf_field_class > div
+{
+	border: solid 1px #828080;
+	padding: 15px;
+	margin-top: 6px;
+}
+
+.wimplecf_field_class > div > p
+{
+	line-height: normal;
+	margin-top: 0;
+}
+
+.wimplecf_field_class div td
+{
+	width: auto;
+}
+
+.wimplecf_php_mailer_radio
+{
+	margin-top: 8px !important;
+	margin-bottom: 12px !important;
+}
+
+.wimplecf_php_mailer_radio_2
+{
+	margin-bottom: 0 !important;
+}
+
+.wimplecf_mailSendingInfo
+{
+	margin-top: 25px;
+}
+
+.wimplecf_mailSendingInfo input
+{
+	font-weight: normal;
+    font-size: 14px !important;
+    height: 30px !important;
+	margin-top: -5px !important;
+    margin-left: 15px !important;
+}
+
+.wimplecf_mailSendingInfoDisabled
+{
+	color: #888787;
+}
+
+.wimplecf_mailSendingInfoDisabled input
+{
+	background: #989898 !important;
+	border-color: #989898 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.wimplecf_mailSendingInfoDisabled input[disabled="disabled"] 
+{
+    background: #989898 !important;
+    border-color: #989898 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+.wimplecf_popClickInfo
+{
+	font-weight: bold;
+}
+
+.wimplecf_mailSendingStatus
+{
+	color: #ed1c24;
+	font-weight: 600;
+	margin: 20px 0 20px 185px;
+}
+.wimplecf_mailsetupnote
+{
+	color: #ed1c24;
+	font-weight:600;
+	margin:2px 0 3px 16px !important;
+	padding:11px 0px !important;
+}
+
+.wimplecf_amazonForm
+{
+	margin: 20px 0 7px;
+}
+
+.wimplecf_amazonForm td:first-child
+{
+	white-space: nowrap;
+	width: 114px;
+}
+
+.wimplecf_amazonForm td:last-child
+{
+	width: inherit;
+}
+
+.wimplecf_amazonForm td:last-child input
+{
+	width: 335px;
+}
+
+.wimplecf_centered 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.wimplecf_popClickInfoCntnr-box{
+    position:relative;
+	margin:10px 0px 0px 185px;
+}
+.wimplecf_popClickInfoCntnr-box > div
+{
+	position: absolute;
+	left: 0;
+	top: -440px;
+    border: solid 2px #000;
+    background: #fff;
+    width: 88%;
+    padding: 20px 5px 0 20px;
+    box-sizing: border-box;
+	font-size: 15px;
+    z-index: 999;
+	display: none;
+}
+.wimplecf_popClickInfoCntnr
+{
+	position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #909090;
+}
+.wimplecf_popClickInfoCntnr a:link{
+   text-decoration:none;
+}
+.wimplecf_steps
+{
+	position: relative;
+	color:#333333;
+	font-weight:700;
+	margin-bottom:15px;
+}
+.wimplecf_certificate_assign
+{
+	margin-top: 20px;
+}
+
+.wimplecf_popClickInfoCntnr > div
+{
+	position: absolute;
+	left: 0;
+	top: 22px;
+    border: solid 2px #000;
+    background: #fff;
+    width: 100%;
+    padding: 20px 5px 0 20px;
+    box-sizing: border-box;
+	font-size: 15px;
+    z-index: 999;
+	display: none;
+}
+
+.wimplecf_popClickInfoCntnr > div > strong
+{
+	font-size: 17px;
+}
+
+.wimplecf_popClickInfoCntnr > div > p
+{
+	font-size: 15px;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol
+{
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-left: 0;
+    padding-right: 0;
+	list-style-type: none;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol > li
+{
+	line-height: 1.5;
+	counter-increment: step-counter;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol > li::before
+{
+	content: counter(step-counter)".";
+	margin-right: 5px;
+	padding: 3px 8px 3px 0;
+	position: absolute;
+	left: 0;
+	top: -3px;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol > li > ol
+{
+	counter-reset: list;
+    margin-left: 1px;
+    margin-top:4px;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol > li > ol > li 
+{
+	list-style: none;
+	margin-bottom:1px;
+}
+
+.wimplecf_popClickInfoCntnr > div > ol > li > ol > li:before 
+{
+	content: counter(list, lower-alpha) ") ";
+	counter-increment: list;
+}
+
+.wimplecf_popClose
+{
+	background: url(../images/pop-close.png) no-repeat left 0;
+	width: 28px;
+	height: 27px;
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	display: block;
+    transition: unset;
+}
+
+.wimplecf_popClose:hover
+{
+	background: url(../images/pop-close.png) no-repeat left -27px;
+}
+
+.wimplecf_popFrmBtn
+{
+	margin-top:30px !important;
+}
+
+.wimplecf_display_name_frontend
+{
+    margin: 0px 0px 0px 15px;
+}
+
+#wimplecf_iDDisabledSpl[disabled]
+{
+    background: #989898 !important;
+    border-color: #989898 !important; 
+	box-shadow: none !important; 
+	text-shadow: none !important; 
+	color: #fff !important;
+}
+.wimplec-radio-box
+{
+   width:100%;
+   float:left;
+   padding:0px;
+   margin:10px 0px;
+}
+.wimplecf_linux_windows
+{
+   width:250px;
+   display:inline-block;
+   padding:0px;
+   margin:0px 0px 20px 0px;
+}
+.wimplecf_note > p > strong
+{
+	font-weight: 700 !important;
+}
+input[type="date"], 
+input[type="datetime-local"],
+input[type="datetime"], 
+input[type="email"], 
+input[type="month"], 
+input[type="number"], 
+input[type="password"], 
+input[type="search"], 
+input[type="tel"],
+input[type="text"], 
+input[type="time"], 
+input[type="url"], 
+input[type="week"]
+{ 
+	padding:3px 5px !important; 
+	border-radius:0;
+}
+
+/* -----copy clip board------ */
+.wimplecf_copyclip
+{
+	margin:0px;
+	padding:20px 0px 0px 0px;
+	float:left;
+	border-bottom:1px solid #909090;
+}
+.wimplecf_copyclip p
+{
+    margin: 12px 0px 5px 0px;
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+}
+.wimplecf_copyclip ul
+{
+    width:100%;
+	margin:10px 0px 0px 016px;
+	padding:0px;
+	float:left;
+}
+.wimplecf_copyclip li
+{
+	margin:0px;
+	padding:2px 0px;
+	float:left;
+	width:100%;
+}
+.wimplecf_copyclip .btn
+{
+	margin:10px 0px 0px 16px;
+	padding:0px 10px;
+	background:#3b7f48;
+	line-height:28px;
+	border:1px solid #2e723b;
+	font-weight:800;
+	color:#ffffff;
+	cursor:pointer;
+}
+.wimplecf_copy_code
+{
+	margin:0px 0px 5px 0px;
+	padding:0px;
+	float:left;
+	width:100%;
+}
+.wimplecf_email_sepup_copied_msg
+{
+	color:#17a231;
+	font-weight:800;
+	position:absolute;
+	margin:16px 115px;
+}
+.wimplecf_values_not_set_in_config
+{
+	color:#f00;
+	font-weight: bold;
+	float:left;
+	font-size:12px;
+	margin-left:16px;
+}
+.wimplecf_alreadydefined
+{
+	background: #989898 !important;
+	border-color: #989898 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	color: #fff !important;
+	margin:10px 0px 0px 16px;
+	padding:0px 10px;
+	line-height:28px;
+	font-weight:800;
+	border-radius:0;
+	float:left;
+}
+.wimplecf_button_inactive
+{
+	display:inline-block;
+	position:relative;
+	left:12px;
+	top:15px;
+	float:left;
+	color:#888787;
+}
+.wimplecf_submit_successMsg {
+	float:left;
+	margin:10px 0 10px 17px;
+	width:98%;
+	/* color: #21a40c; */
+	font-size:15px;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus {
+	box-shadow:none !important;	
+}
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+	border-radius:0;	
+}
+.wp-core-ui select, input[type=checkbox]  {
+	border-radius:0;	
+}
+
+.pop-inerbox{
+    max-height: 395px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 0;
+    padding-right: 0;
+}
+.pop-inerbox strong{
+    display:block;
+	padding-top:18px;
+}
+.pop-inerbox ul{
+    padding: 0px 15px;
+    margin: 0px 15px;
+    font-size: 13px;
+}
+.pop-inerbox ul li{
+   list-style:lower-alpha !important;
+   padding-left:15px;
+}
+.pop-inerbox h3{
+    font-size:22px;
+	padding-top:15px;
+}
+.top{
+    font-size:25px;
+}
+
+.wimplecf_threeline{
+  position:absolute;
+}
+.wimplecf_wsa{
+   float:left; 
+   width:100%; 
+   margin:12px 15px 5px 15px;
+}
+.wimplecf_floatl{
+   float:left;
+}
+.wimplecf_spf_dkim_tag_line{
+	font-size:12px;
+    margin:2px 7px 18px 185px;
+	color:#888787;
+	display:block;
+}

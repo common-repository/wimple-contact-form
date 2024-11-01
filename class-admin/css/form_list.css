@@ -1,0 +1,215 @@
+.wimplecf_message_success
+{
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 97%;
+    margin: 17px 0;
+}
+
+.wimplecf_top_headings
+{
+    background-color: #e4e4e4;
+}
+
+.wimplecf_top_headings th
+{
+    font-weight: bold;
+}
+
+.wimplecf_back_btn
+{
+   width: 100%;
+   float: left; 
+}
+
+.wimplecf_back_btn button
+{
+    float: right;
+}
+
+.wimplecf_heading_highlight
+{
+    background: none repeat scroll 0 0 #e4e4e4;
+    padding: 0 5px;
+}
+
+.wimplecf_user_detail ul li
+{
+    float: left;
+    width: 100%;
+}
+
+.wimplecf_wp-list-table
+{
+    width: 100%;
+}
+
+.wimplecf_width1
+{
+    width: 25%;
+    white-space: nowrap;     
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.wimplecf_width2
+{ 
+    width: 20%;
+}
+
+.wimplecf_width3
+{
+    width: 25%;
+}
+
+.wimplecf_width4
+{
+    width: 12%;
+}
+
+.wimplecf_width5
+{ 
+    width: 18%;
+}
+
+@media all and (max-width:1001px)
+{
+    .wimplecf_wp-list-table
+    {
+        width: 670px !important;
+    }
+    .wimplecf_width1
+    {
+        width: 25%;
+        white-space: nowrap;     
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .wimplecf_width2
+    { 
+        width: 20%;
+    }
+    .wimplecf_width3
+    { 
+        width: 25%;
+    }
+    .wimplecf_width4
+    {
+        width: 12%;
+    }
+    .wimplecf_width5
+    { 
+        width: 18%;
+    }
+}
+
+@media all and (max-width:1001px) and (min-width:700px)
+{
+    .wimplecf_wp-list-table
+    {
+        width: 750px !important;
+    }
+    .wimplecf_width1
+    {
+        width: 25%;
+        white-space: nowrap;     
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .wimplecf_width2
+    {
+        width: 20%;
+    }
+    .wimplecf_width3
+    {
+        width: 25%;
+    }
+    .wimplecf_width4
+    {
+        width: 12%;
+    }
+    .wimplecf_width5
+    {
+        width: 18%;
+    }
+}
+
+@media all and (max-width:1201px) and (min-width:1000px)
+{
+    .wimplecf_wp-list-table
+    {
+        width: 830px !important;
+    }
+    .wimplecf_width1
+    {
+        width: 25%;
+        white-space: nowrap;     
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .wimplecf_width2
+    { 
+        width: 20%;
+    }
+    .wimplecf_width3
+    {
+        width: 25%;
+    }
+    .wimplecf_width4
+    { 
+        width: 12%;
+    }
+    .wimplecf_width5
+    { 
+        width: 18%;
+    }
+}
+
+.wimplecf_header
+{
+    width: 100%;
+    float: left;
+}
+
+.wimplecf_new_form
+{
+    float: left;
+    width: 82%;
+}
+
+.wimplecf_new_form h2
+{
+    font-weight: bold;
+}
+
+.wimplecf_logo
+{
+    width: 15%;
+    float: right;
+    text-align: right;
+}
+
+.wimplecf_add-new-h2
+{
+    background: #e0e0e0 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 4px;
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    top: -3px;
+}
+
+.wimplecf_add-new-h2:hover
+{
+    background: #00a0d2 none repeat scroll 0 0;
+    color: #fff;
+}

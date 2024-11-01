@@ -1,0 +1,5 @@
+.wimplecf_full_form { border:1px #00b0ea solid; }
+.wimplecf_full_form h2 { background:#00b0ea; color:#fff; }
+.wimplecf_full_form .wimplecf_form-group label { color:#00b0ea !important; }
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"], .wimplecf_full_form .wimplecf_button_sec input[type="button"] { background:#00b0ea !important; border:1px #00b0ea solid !important; color:#fff !important; }
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"]:hover, .wimplecf_full_form .wimplecf_button_sec input[type="submit"]:focus, .wimplecf_full_form .wimplecf_button_sec input[type="submit"]:active { background:#0393c3 !important; border:1px #0393c3 solid !important; color:#fff !important; }

@@ -1,0 +1,7 @@
+.wimplecf_full_form { box-shadow: 0 0 5px #333;  }
+.wimplecf_full_form .wimplecf_form-group input[type="text"],
+.wimplecf_full_form .wimplecf_form-group input[type="email"],
+.wimplecf_full_form .wimplecf_form-group input[type="tel"],
+.wimplecf_full_form .wimplecf_form-group select,
+.wimplecf_full_form .wimplecf_form-group textarea { box-shadow: 0 0 5px #ccc; }
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"], .wimplecf_full_form .wimplecf_button_sec input[type="button"] { box-shadow: 0 0 5px #666 !important; }

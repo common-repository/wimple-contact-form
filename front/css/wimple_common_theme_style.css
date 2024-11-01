@@ -1,0 +1,184 @@
+* { margin:0px; padding:0px; outline:none; box-sizing:border-box; }
+:root { --global--line-height-body:none; --global--line-height-heading:none; }
+
+::placeholder 
+{
+   font-style:italic;
+}
+
+.wimplecf_full_form input:focus, .wimplecf_full_form select:focus, .wimplecf_full_form textarea:focus,
+.wimplecf_full_form input[type="file"]:focus,
+.wimplecf_full_form input[type="radio"]:focus,
+.wimplecf_full_form input[type="checkbox"]:focus,
+.wimplecf_full_form button[type="submit"]:focus,
+.wimplecf_full_form button[type="button"]:focus { outline: none !important;  box-shadow:none !important; }
+
+
+.wimplecf_full_form { width:100%; float:none; border:1px #ddd solid; background:#fff; margin:auto; display:inline-block; }
+.wimplecf_full_form h2 { margin:0; background:#333; color:#fff; font-size:22px; font-weight:600; padding:5px 15px; line-height:34px; }
+.wimplecf_full_form h2 b { font-weight:normal; }
+
+.wimplecf_full_form .wimplecf_form_fields { padding:15px 0; width:100%; display:inline-block; }
+.wimplecf_full_form .wimplecf_form-group { width:100%; float:left; margin-bottom:20px; text-align:left; font-size:14px; }
+.wimplecf_full_form .wimplecf_form-group label { font-size:14px; color:#333; display:block; margin-bottom:5px; line-height:20px; }
+.wimplecf_full_form .wimplecf_form-group label p { font-size:14px; color:#333; display:block; margin-bottom:5px; line-height:20px; margin-top: 10px; font-weight: normal; }
+.wimplecf_full_form .wimplecf_form-group label span { color:#f00; }
+.wimplecf_full_form .wimplecf_form-group span.wimplecf_help_text { font-size:12px; color:#999; font-style: italic; }
+.wimplecf_full_form .wimplecf_form-group input[type="text"],
+.wimplecf_full_form .wimplecf_form-group input[type="email"],
+.wimplecf_full_form .wimplecf_form-group input[type="tel"] { background:#fff; width:100%; height:40px; border-radius:0; padding:10px; border:1px #ddd solid; margin:0 !important; font-size:14px; }
+.wimplecf_full_form .wimplecf_form-group select { background:#fff; width:100%; height:40px; border-radius:0; padding:0 10px; border:1px #ddd solid; max-width: none; appearance:auto; font-size:14px; margin:0 !important; } 
+.wimplecf_full_form .wimplecf_form-group button[type="button"]{ background:#fff; width:100%; height:40px; border-radius:0; padding:0 10px; border:1px #ddd solid; max-width: none; appearance:auto; font-size:14px; margin:0 !important; } 
+.wimplecf_full_form .wimplecf_form-group textarea { background:#fff; width:100%; height:100px; border-radius:0; padding:10px; border:1px #ddd solid; font-size:14px; display:block; margin:0 !important; resize:none; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_gender_radio_sec { margin-top:12px; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_custom-check-radio label { margin-right:30px; display:inline-block !important; width:auto !important; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_custom-check-radio label.wimplecf_custom_checkbox { margin:5px 0 0 0; }
+.wimplecf_full_form .wimplecf_each_field { padding:0 15px; }
+
+.wimplecf_captcha_sec  { width: 100%; display: inline-block; padding:0 !important; } 
+.wimplecf_captcha_sec .wimplecf_captcha_inner input[type="text"] { width: 200px; float:left; }
+.wimplecf_captcha_sec .wimplecf_captcha_inner .wimplecf_captcha_image { margin: 0 10px 0 20px; float: left; }
+.wimplecf_captcha_sec .wimplecf_captcha_inner .wimplecf_captcha_image img { height: 40px; }
+.wimplecf_captcha_sec .wimplecf_captcha_inner .wimplecf_captcha_refresh_icon { float:left; margin-top:8px; }
+.wimplecf_captcha_sec .wimplecf_captcha_bottomTxt { float:left; width:100%; }
+.wimplecf_captcha_sec .wimplecf_edit_nolabel img { margin-left:0; }
+.wimplecf_captcha_sec {margin-top: 10px;width: auto;}
+
+.wimplecf_full_form .wimplecf_button_sec { margin-top:20px; }
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"],
+.wimplecf_full_form .wimplecf_button_sec input[type="button"] { min-width:100px; background:#3b88f7 !important; border:1px #3b88f7 solid !important; color:#fff !important; padding:10px 30px; border-radius:0;  margin:0; font-size:18px; }
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"]:hover,
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"]:focus,
+.wimplecf_full_form .wimplecf_button_sec input[type="submit"]:active { background:#2873ca !important; border:1px #2873ca solid !important; color:#fff !important; box-shadow:none; }
+
+.wimplecf_full_form .wimplecf_success_message_outer { margin:0; }
+.wimplecf_full_form .wimplecf_success_message { background:#dff2d5; width:100%; display:inline-block; border:1px #83b655 solid; color:#3c784b; padding:7px 10px; font-size:14px; font-weight:bold; margin-bottom:20px; }
+.wimplecf_full_form .wimplecf_error_message { font-size:13px; color:#f00; margin:2px 0 0 0; display:block; }
+
+.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-3 { width:25%; float:left; padding:0 15px; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-4 { width:33.333333%; float:left; padding:0 15px; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-6 { width:50%; float:left; padding:0 15px; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-8 { width:66.666667%; float:left; padding:0 15px; }
+.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-12 { width:100%; float:left; padding:0 15px; }
+.wimplecf_noteTxt p {font-size: 14px !important;   margin: 0px !important;}
+
+.wimplecf_nolabel { padding-top:5px;}
+.wimplecf_captcha-nolebel{ float:left; width:100%; padding-top:35px;}
+.wimplecf_captcha-nolebel_100percencent{ padding-top:5px;}
+
+/* Start Custom radio and checkbox Styles --------------------------------------------------*/
+.wimplecf_custom_checkbox { position: relative; font-weight:normal; padding:0 0 0 30px !important; margin:0; font-size:14px; }
+.wimplecf_custom_checkbox input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0; }
+.wimplecf_custom_checkbox .wimplecf_checkmark { position: absolute; top: 0; left: 0; height: 22px; width: 22px; background: #fff; border:1px #ccc solid; box-shadow:0px 1px 5px 0px #ddd inset; }
+.wimplecf_custom_checkbox input:checked ~ .wimplecf_checkmark { background: #fff; border:1px #3b88f7 solid; }
+.wimplecf_custom_checkbox .wimplecf_checkmark:after { content: ""; position: absolute; display: none; }
+.wimplecf_custom_checkbox input:checked ~ .wimplecf_checkmark:after { display: block; }
+.wimplecf_custom_checkbox .wimplecf_checkmark:after { left: 7px; top: 3px; width: 7px; height: 12px; border: solid #3b88f7; border-width: 0 3px 3px 0;  -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+
+.wimplecf_custom_radio { position: relative; font-weight:normal; padding:0 0 0 32px !important; margin:0; font-size:15px; color:#fff; }
+.wimplecf_custom_radio input { position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+.wimplecf_custom_radio .wimplecf_checkmark { position: absolute; top: 0; left: 0; height: 24px; width: 24px; background: #fff; border:1px #ccc solid; border-radius: 100%; box-shadow:0px 1px 5px 0px #ddd inset; cursor:pointer; }
+.wimplecf_custom_radio:hover input ~ .wimplecf_checkmark { background: #fff; border:1px #3b88f7 solid; }
+.wimplecf_custom_radio input:checked ~ .wimplecf_checkmark { background: #fff; border:1px #3b88f7 solid; }
+.wimplecf_custom_radio .wimplecf_checkmark:after { content: ""; position: absolute; display: none; }
+.wimplecf_custom_radio input:checked ~ .wimplecf_checkmark:after { display: block; }
+.wimplecf_custom_radio .wimplecf_checkmark:after { top:5px; left: 5px; width: 12px; height: 12px; border-radius: 100%; background: #3b88f7; }
+.wimplecf_form-group hr { margin:20px 0; border-top:1px #ddd solid; border-bottom:none; }
+
+::placeholder { color: #999; }
+
+/* Ui css */
+.ui-widget.ui-widget-content { font-size:16px; }
+.ui-widget.ui-widget-content select { padding: 0 3px; line-height: 28px; font-size: 15px; font-weight: bold; border: 1px #333 solid; margin: 0 1px; color:#333; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { margin-top:-5px; }
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+	border: none;
+	background: none;
+	right:2px;
+	top:2px;
+}
+.ui-datepicker-prev:hover,
+.ui-datepicker-prev:focus {
+	left:2px;
+}
+
+/* Responsive Style */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+}
+
+@media screen and (max-width : 767px) 
+{
+	.wimplecf_full_form .wimplecf_form-group { margin-bottom:15px; }
+	.wimplecf_full_form .wimplecf_success_message_outer { margin-bottom:0; }
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-3,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-4,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-6,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-8,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-12 { width:100%; }
+	
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-3:first-child,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-4:first-child,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-6:first-child,
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_col-sm-8:first-child { margin-bottom:15px; }
+	.wimplecf_full_form .wimplecf_captcha_sec .wimplecf_captcha_inner input[type="text"] { width:158px; float:none; display:block; }
+	.wimplecf_full_form .wimplecf_captcha_sec .wimplecf_captcha_inner .wimplecf_captcha_image { margin:15px 15px 0 0; }
+	.wimplecf_full_form .wimplecf_captcha_sec .wimplecf_captcha_inner .wimplecf_captcha_refresh_icon { margin-top:22px; }
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_custom-check-radio label { display:block; margin:0 0 10px; }
+	.wimplecf_full_form .wimplecf_form-group .wimplecf_custom-check-radio label:last-child { margin:0; }
+}
+
+.wimplecf_captcha_sec .wimplecf_captcha_inner input[type="text"] 
+{
+	width: 40% !important;
+	float: left;
+}
+
+.wimplecf_captcha_sec-50
+{
+	margin-top:0;
+}
+
+.wimplecf_captcha_img-label
+{
+	font-size: 14px;
+	float: left;
+	/* margin: -29px 0 0 20px; */
+	margin: -25px 0 0 20px;
+	width: auto !important;
+	padding: 0 !important;	
+}
+.wimplecf_captcha_img-label-50
+{
+	font-size: 14px;
+	float: left;
+	margin: -26px 0 0 20px;
+}
+
+.wimplecf_multiselect_outerDivCls { position:relative; z-index:999; }
+.wimplecf_multiselect_optionsDivCls { width:100%; height:auto; display:block; padding:5px 3px; background:#fff; border:1px #ddd solid; position:absolute; top:39px; left:0; }
+.wimplecf_multiselect_valueCls { cursor:pointer; background: url(../images/select-arrow.png) no-repeat 99.2% 16px !important; }
+.wimplecf_multi_check_sec { width:100%; display:inline-block; padding:4px 10px; }
+.wimplecf_multi_check_sec:hover { background:#e0e0e6; }
+.wimplecf_multi_check_sec .wimplecf_multicheckboxhandlecls { float:left; margin-top:2px; border:1px #ddd solid !important; border-radius: 0; width:1.1rem; height:1.1rem; }
+.wimplecf_multi_check_sec .wimplecf_multiselect_checkbox { float:left; margin:0px 0 0 6px !important; }
+
+/*custom css for invalid option */
+
+#wimplecf_slectbox_id {
+  color: #999999;
+}
+#wimplecf_slectbox_id.wimplecf_placeholder, option.wimplecf_placeholder {
+  color: #999999;
+}
+#wimplecf_slectbox_id.wimplecf_others, option.wimplecf_others {
+    color:#000;
+}
